@@ -1,15 +1,17 @@
-AWS Lambda Function Manager
+# AWS Lambda Function Manager
 This repository contains a Python script for managing AWS Lambda functions. The script allows users to create and update Lambda functions with specified configurations, including roles, handlers, runtime environments, and network access settings. The script uses the boto3 library to interact with AWS Lambda and the zipfile module to package function code.
 
-Features
-Create and update AWS Lambda functions.
-Set roles, handlers, runtime environments, and network access settings for Lambda functions.
-Package Lambda function code into a zip file for deployment.
-Technologies Used
-Python: As the programming language.
-Boto3: For interacting with AWS Lambda.
-Zipfile: For packaging Lambda function code.
-Installation
+## Features
+- Create and update AWS Lambda functions.
+- Set roles, handlers, runtime environments, and network access settings for Lambda functions.
+- Package Lambda function code into a zip file for deployment.
+
+## Technologies Used
+- Python: As the programming language.
+- Boto3: For interacting with AWS Lambda.
+- Zipfile: For packaging Lambda function code.
+
+## Installation
 1. Clone the repository to your local machine:
 
 ```sh
@@ -32,7 +34,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Usage
+## Usage
 Configure the script with your AWS credentials. You can do this by setting up your AWS credentials file or by exporting the necessary environment variables:
 
 ```sh
