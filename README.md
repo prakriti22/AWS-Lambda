@@ -41,7 +41,6 @@ Configure the script with your AWS credentials. You can do this by setting up yo
 export AWS_ACCESS_KEY_ID='your_access_key_id'
 export AWS_SECRET_ACCESS_KEY='your_secret_access_key'
 export AWS_DEFAULT_REGION='your_aws_region'
-Run the script with the necessary arguments:
 ```
 Example
 ```sh
